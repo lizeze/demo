@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cookie</title>
+</head>
+
+<body>
+    <input type="button" value="设置cookie" onclick="setMycookie()" />
+    <input type="button" value="获取cookie" onclick="showMyCookie()" />
+</body>
+
+<script>
+    function setMycookie() {
+        setCookie('lzz', '李泽泽', 10);
+
+    }
+
+    function showMyCookie() {
+        alert(getCookie('lzz'));
+
+    }
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        // d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        d.setTime(d.getTime() + (exdays * 1000));
+        var expires = "expires=" + d.toGMTString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i].trim();
+            if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+        }
+        return "";
+    }
+</script>
+
+</html>
