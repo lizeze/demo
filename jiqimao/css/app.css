@@ -1,0 +1,48 @@
+/* 首先去掉一些默认的样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: left;
+}
+
+.code , .canvas{
+    width: 50%;
+    height: 90vh;
+    margin: 50px;
+}
+
+.code{
+    border: 1px solid #07bbea;
+    overflow-y:hidden;
+}
+
+.button , .speed{
+    color: #07bbea;
+    border: none;
+    height: 20px;
+    line-height: 20px;
+    width: 60px;
+    position: fixed;
+    right: 50px;
+    top: 90px;
+    border: 1px solid #ddd;
+    box-shadow: -2px 3px 10px 0px rgba(0,0,0,0.4);
+}
+
+.up{
+    top: 60px;
+}
+
+.speed{
+    top: 150px;
+    text-align: center;
+}
+
+.token.selector,.token.punctuation,.token.property,.token.comment,.token.function{
+    color: rgb(132,26,138);
+}
+

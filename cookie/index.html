@@ -14,13 +14,23 @@
 </body>
 
 <script>
+   window.onload=function(){
+    setCookie('lzz12', '李泽泽', 10);
+
+   }
+    var index=1;
+
     function setMycookie() {
-        setCookie('lzz', '李泽泽', 10);
+        index++;
+        setCookie('lzz', index, 10);
+       
+      
+       alert(index)
 
     }
 
     function showMyCookie() {
-        alert(getCookie('lzz'));
+        alert(getCookie('JSESSIONID'));
 
     }
 

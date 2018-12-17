@@ -16,7 +16,7 @@ $(function () {
         !arr.length && myAudio.removeEventListener('ended', playEndedHandler, false);//只有一个元素时解除绑定
     }
 
-    playEndedHandler();
+
 
 
 
