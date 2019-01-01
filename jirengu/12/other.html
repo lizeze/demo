@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>其他技巧</title>
     <style>
-        div::after {
+        .after::after {
 
             content: '右护卫'
 
         }
 
-        div::before {
+        .after::before {
 
             content: '左护卫'
 
@@ -23,6 +23,24 @@
             color: transparent;
             text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         }
+
+
+        .borders {
+            position: relative;
+            border: 5px solid #f00;
+             height: 100px;
+        }
+
+        .borders:before {
+            content: " ";
+            position: absolute;
+            z-index: -1;
+            top: 5px;
+            left: 5px;
+            right: 5px;
+            bottom: 5px;
+            border: 5px solid #ffea00;
+        }
     </style>
 
 </head>
@@ -30,7 +48,7 @@
 
 
 <body>
-    <div>
+    <div class="after">
         这是一个div
     </div>
 
@@ -39,6 +57,9 @@
         fefe
 
     </p>
+
+
+    <div class="borders"></div>
 
 </body>
 
