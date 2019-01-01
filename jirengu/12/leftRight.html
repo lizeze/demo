@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>左</title>
+    <style>
+        * {
+            margin: 10px;
+        }
+
+        .clearfix:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        #left {
+            float: left;
+            width: 40%;
+            height: 30px;
+            border: 1px solid red;
+        }
+
+        #right {
+            float: left;
+            width: 40%;
+            height: 30px;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clearfix">
+        <div id="left">
+            <p>Left Half</p>
+        </div>
+        <div id="right">
+            <p>Right Half</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>左中右</title>
+    <style>
+        .clearfix:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .container {
+            width: 410px;
+        }
+
+        .node {
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        .leftBox {
+            width: 220px;
+            float: left;
+        }
+
+        .left {
+            border: 1px solid green;
+        }
+
+        .center {
+            border: 1px solid gray;
+        }
+
+        .right {
+            border: 1px solid blue
+        }
+    </style>
+</head>
+<body>
+    <div class="clearfix">
+        <div class=" container clearfix">
+            <div class="clearfix leftBox">
+                <div class="left node" style="border: 1px solid green;">left</div>
+                <div class="center node">center</div>
+            </div>
+            <div class="right node">
+                right
+            </div>
+        </div>
+ </div>
+</body>
+
+</html>
