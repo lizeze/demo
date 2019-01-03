@@ -46,7 +46,7 @@ let hosts = {
     o:{url:'https://open.weixin.qq.com/'},
     w:{url:'https://weixin.qq.com/',ico:'https://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1L3ryyg.png'},
     p:{url:'https://www.pptv.com/',ico:'https://sr1.pplive.cn/cms/84/55/1220081983b8ae3e259d874388c877f0.png'},
-    l:{url:'http://www.lizeze.top/',ico:'http://www.lizeze.top/gitbook/images/favicon.ico'},
+    
     v:{url:'https://www.v2ex.com/'}
 
 }
