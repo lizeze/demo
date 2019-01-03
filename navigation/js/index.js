@@ -6,7 +6,6 @@ let keys = {
 let hosts = {
     a: {
         url: 'https://www.amazon.cn/',
-
     },
     b: {
         url: 'https://www.baidu.com/'
@@ -43,9 +42,7 @@ let hosts = {
     k: {
         url: 'https://www.kugou.com/'
     },
-    m: {
-        url: 'https://music.163.com/'
-    },
+    m: undefined,
     o:{url:'https://open.weixin.qq.com/'},
     w:{url:'https://weixin.qq.com/',ico:'https://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1L3ryyg.png'},
     p:{url:'https://www.pptv.com/',ico:'https://sr1.pplive.cn/cms/84/55/1220081983b8ae3e259d874388c877f0.png'},
@@ -70,9 +67,6 @@ for (let item in keys) {
                 img.src = hosts[element].url + '/favicon.ico';
             else
                 img.src = hosts[element].ico;
-
-
-
             kbd.appendChild(img);
             kbd.setAttribute('url', hosts[element].url);
         }
@@ -82,15 +76,11 @@ for (let item in keys) {
 }
 
 $('.key').click(function () {
-
-    
     let _ = this;
     if (_.getAttribute('url')) {
-
         window.open(_.getAttribute('url'));
     }
 })
-
  $('#component-1').click(function(){
     setTimeout(function(){window.open('https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd='+$('#searchText').val())},1500)
  })
