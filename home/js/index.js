@@ -31,7 +31,7 @@ let hosts = {
     },
     i: {
         url: 'https://www.imooc.com/',
-        
+
     },
     y: {
         url: 'https://www.youtube.com/'
@@ -43,11 +43,21 @@ let hosts = {
         url: 'https://www.kugou.com/'
     },
     m: undefined,
-    o:{url:'https://open.weixin.qq.com/'},
-    w:{url:'https://weixin.qq.com/',ico:'https://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1L3ryyg.png'},
-    p:{url:'https://www.pptv.com/',ico:'https://sr1.pplive.cn/cms/84/55/1220081983b8ae3e259d874388c877f0.png'},
-    
-    v:{url:'https://www.v2ex.com/'}
+    o: {
+        url: 'https://open.weixin.qq.com/'
+    },
+    w: {
+        url: 'https://weixin.qq.com/',
+        ico: 'https://res.wx.qq.com/a/wx_fed/weixin_portal/res/static/img/1L3ryyg.png'
+    },
+    p: {
+        url: 'https://www.pptv.com/',
+        ico: 'https://sr1.pplive.cn/cms/84/55/1220081983b8ae3e259d874388c877f0.png'
+    },
+
+    v: {
+        url: 'https://www.v2ex.com/'
+    }
 
 }
 for (let item in keys) {
@@ -81,6 +91,8 @@ $('.key').click(function () {
         window.open(_.getAttribute('url'));
     }
 })
- $('#component-1').click(function(){
-    setTimeout(function(){window.open('https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd='+$('#searchText').val())},1500)
- })
+$('#component-1').click(function () {
+    setTimeout(function () {
+        window.open('https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=' + $('#searchText').val())
+    }, 900)
+})
