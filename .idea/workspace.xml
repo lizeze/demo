@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de39c8f3-13e1-4966-9a08-983e08bcf6c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/print/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/print/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/print/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/peimenghan/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module/peimenghan/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,25 +16,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/jiqimao/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="boxImg.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/img/js/boxImg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-89">
-              <folding>
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#6;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -53,10 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boxImg.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="boxImg.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/img/css/boxImg.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/peimenghan/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2342" />
+            <state relative-caret-position="92">
+              <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="57" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -97,7 +94,7 @@
       <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/print/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="414">
               <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
             </state>
           </provider>
@@ -174,6 +171,7 @@
         <option value="$PROJECT_DIR$/module/print/css/style.css" />
         <option value="$PROJECT_DIR$/module/print/css/print.css" />
         <option value="$PROJECT_DIR$/module/print/index1.html" />
+        <option value="$PROJECT_DIR$/module/peimenghan/index.html" />
       </list>
     </option>
   </component>
@@ -188,7 +186,8 @@
       <path value="$PROJECT_DIR$/module/BubbleSort/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="16" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
@@ -198,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,20 +214,12 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="peimenghan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,6 +233,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/peimenghan" />
       <recent name="C:\Users\Administrator\Desktop\demo" />
     </key>
   </component>
@@ -279,14 +272,16 @@
       <workItem from="1547533110267" duration="4537000" />
       <workItem from="1547544690462" duration="84000" />
       <workItem from="1548209269600" duration="649000" />
+      <workItem from="1549359389126" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23579000" />
+    <option name="totallyTimeSpent" value="24241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="807" extended-state="6" />
+    <frame x="16" y="23" width="1440" height="807" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -295,7 +290,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.027823241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.03748126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,6 +330,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module/img/css/boxImg.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/jiqimao/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -343,14 +341,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/img/js/boxImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#6;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/module/img/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -595,7 +586,6 @@
     <entry file="file://$PROJECT_DIR$/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/index.js" />
     <entry file="file://$PROJECT_DIR$/js/index.js" />
     <entry file="file://$PROJECT_DIR$/js/indexaja.js" />
@@ -685,20 +675,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/print/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="414">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/img/js/boxImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#6;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/module/img/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,8 +695,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/img/css/boxImg.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2342" />
+        <state relative-caret-position="138">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/peimenghan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
       </provider>
     </entry>
   </component>
