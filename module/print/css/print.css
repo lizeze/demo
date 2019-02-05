@@ -1,0 +1,16 @@
+
+@page  {
+
+
+}
+
+ *{
+
+     margin: 0;
+     padding: 0;
+ }
+.MainBody {
+
+    width: 297mm;
+    height: 420mm;
+}
