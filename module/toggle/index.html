@@ -6,12 +6,15 @@
 </head>
 <body>
 <a href="#" id="toggle">展开</a>
- <div id="content" style="display: none;"><p>隐藏内容<p><p>隐藏内容<p></div>
+<div id="content" style="display: none;"><p>隐藏内容
+    <p>
+    <p>隐藏内容
+    <p></div>
 </body>
 <script src="../jquery.min.js"></script>
 <script type="text/javascript">
-    $(function() {
-        $("#toggle").click(function() {
+    $(function () {
+        $("#toggle").click(function () {
             $(this).text($("#content").is(":hidden") ? "收起" : "展开");
             $("#content").slideToggle();
         });

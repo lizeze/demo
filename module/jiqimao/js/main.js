@@ -330,35 +330,41 @@ let timeout = 200;
 let n = 0;
 
 function ele(selector) {
-  return document.querySelector(selector);
+    return document.querySelector(selector);
 }
 
 function writeCode(result, timeout) {
-  return setInterval(() => {
-    n += 1;
+    return setInterval(() = > {
+        n += 1;
     ele('.code').innerHTML = Prism.highlight(result.substring(0, n), Prism.languages.css, 'css');
     ele('#styleTag').innerHTML = result.substring(0, n);
     ele('.code').scrollTop = ele('.code').scrollHeight;
     if (n >= result) {
-      window.clearInterval(id);
+        window.clearInterval(id);
     }
-  }, timeout)
+},
+    timeout
+)
 }
 
 function resetSpeed(timeout) {
-  ele('.speed').innerHTML = `速度：${6 - Math.floor(timeout / 40)}`;
-  window.clearInterval(timerId);
-  timerId = writeCode(result, timeout);
+    ele('.speed').innerHTML = `速度：${6 - Math.floor(timeout / 40)}`;
+    window.clearInterval(timerId);
+    timerId = writeCode(result, timeout);
 }
 
-ele('.up').addEventListener('click', () => {
-  if (timeout > 0) timeout -= 40;
-  resetSpeed(timeout);
+ele('.up').addEventListener('click', () = > {
+    if(timeout > 0
+)
+timeout -= 40;
+resetSpeed(timeout);
 })
 
-ele('.down').addEventListener('click', () => {
-  if (timeout < 200) timeout += 40;
-  resetSpeed(timeout);
+ele('.down').addEventListener('click', () = > {
+    if(timeout < 200
+)
+timeout += 40;
+resetSpeed(timeout);
 })
 
 var timerId = writeCode(result, timeout);

@@ -13,13 +13,13 @@
             font-size: 12px;
             margin: 0;
         }
-        
+
         .clearfix:after {
             content: '';
             display: block;
             clear: both;
         }
-        
+
         #fullbg {
             background-color: gray;
             left: 0;
@@ -31,7 +31,7 @@
             -moz-opacity: 0.5;
             -khtml-opacity: 0.5;
         }
-        
+
         #dialog {
             background-color: #fff;
             border: 5px solid rgba(0, 0, 0, 0.4);
@@ -48,35 +48,36 @@
             border-radius: 5px;
             display: none;
         }
-        
+
         #dialog p {
             margin: 0 0 12px;
             height: 24px;
             line-height: 24px;
             background: #CCCCCC;
         }
-        
+
         #dialog p.close {
             text-align: right;
             padding-right: 10px;
         }
-        
+
         #dialog p.close a {
             color: #fff;
             text-decoration: none;
         }
-        
+
         #dialog div.contentBox {
             height: 90%;
             overflow: scroll;
         }
-        
-        #dialog div.contentBox.content {}
-        
+
+        #dialog div.contentBox.content {
+        }
+
         .closeBtn {
             float: right;
         }
-        
+
         .describe {
             white-space: normal;
             word-break: break-all;
@@ -92,55 +93,55 @@
 <body>
 
 
-    <script src="../jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            var html = "";
-            html = '<div id="main">';
-            html += '<a href="javascript:showBg();">点击这里查看效果</a>';
-            html += '<div id="fullbg" style="height: 16px; width: 1366px; display: block;"></div>';
-            html += '<div id="dialog" style="display: block;">';
-            html += '<p class="close">';
-            html += '<a href="#" onclick="closeBg();">关闭</a></p>';
-            html += '<div class="contentBox">';
-            html += '<div class="content clearfix">';
-            html += '<div class="describe">【工作下达】 李泽泽  日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排</div>';
-            html += '<a class="closeBtn"  onclick="reader(this)">关闭</a>';
-            html += '</div>';
-            html += '<div class="content clearfix">';
-            html += '<div class="describe">【工作下达】 李泽泽  日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排</div>';
-            html += '<a class="closeBtn"  onclick="reader(this)">关闭</a>';
-            html += '</div>';
-            html += ' </div>';
-            html += ' </div>';
-            html += ' </div>';
-            html += ' </div>';
+<script src="../jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var html = "";
+        html = '<div id="main">';
+        html += '<a href="javascript:showBg();">点击这里查看效果</a>';
+        html += '<div id="fullbg" style="height: 16px; width: 1366px; display: block;"></div>';
+        html += '<div id="dialog" style="display: block;">';
+        html += '<p class="close">';
+        html += '<a href="#" onclick="closeBg();">关闭</a></p>';
+        html += '<div class="contentBox">';
+        html += '<div class="content clearfix">';
+        html += '<div class="describe">【工作下达】 李泽泽  日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排</div>';
+        html += '<a class="closeBtn"  onclick="reader(this)">关闭</a>';
+        html += '</div>';
+        html += '<div class="content clearfix">';
+        html += '<div class="describe">【工作下达】 李泽泽  日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排 日常管理工作安排</div>';
+        html += '<a class="closeBtn"  onclick="reader(this)">关闭</a>';
+        html += '</div>';
+        html += ' </div>';
+        html += ' </div>';
+        html += ' </div>';
+        html += ' </div>';
 
-            $($(document.body)[0]).html(html);
-        })
+        $($(document.body)[0]).html(html);
+    })
 
 
-        //显示灰色 jQuery 遮罩层
-        function showBg() {
-            var bh = $("body").height();
-            var bw = $("body").width();
-            $("#fullbg").css({
-                height: bh,
-                width: bw,
-                display: "block"
-            });
-            $("#dialog").show();
-        }
+    //显示灰色 jQuery 遮罩层
+    function showBg() {
+        var bh = $("body").height();
+        var bw = $("body").width();
+        $("#fullbg").css({
+            height: bh,
+            width: bw,
+            display: "block"
+        });
+        $("#dialog").show();
+    }
 
-        function reader(obj) {
-            $(obj).parent().remove();
-        }
+    function reader(obj) {
+        $(obj).parent().remove();
+    }
 
-        //关闭灰色 jQuery 遮罩
-        function closeBg() {
-            $("#fullbg,#dialog").hide();
-        }
-    </script>
+    //关闭灰色 jQuery 遮罩
+    function closeBg() {
+        $("#fullbg,#dialog").hide();
+    }
+</script>
 </body>
 
 </html>

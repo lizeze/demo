@@ -39,8 +39,8 @@ $action-color: $green;
 .button,
 .button__bg {
   .safari & {
-    -webkit-filter: none!important;
-    filter: none!important;
+    -webkit-filter: none !important;
+    filter: none !important;
   }
 }
 
@@ -111,11 +111,11 @@ $action-color: $green;
 
 .button--2 {
   @extend %button;
-  outline: 90px solid transparent!important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
+  outline: 90px solid transparent !important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
   position: relative;
   z-index: 0;
   background-color: transparent;
-  
+
   .left, .right {
     position: absolute;
     width: 25px;
@@ -185,7 +185,7 @@ $action-color: $green;
     left: 0;
     width: 100%;
     height: 100%;
-    outline: 90px solid transparent!important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
+    outline: 90px solid transparent !important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
     @extend %button;
     padding: 0;
     border-radius: 100px;
@@ -230,26 +230,26 @@ $action-color: $green;
 .button--5 {
   @extend %button;
   transform: translateZ(0);
-  outline: 90px solid transparent!important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
+  outline: 90px solid transparent !important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
 }
 
 .button--6 {
   @extend %button;
   transform: translateZ(0);
-  outline: 90px solid transparent!important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
+  outline: 90px solid transparent !important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
 }
 
 .button--7 {
   @extend %button;
   transform: translateZ(0);
-  outline: 90px solid transparent!important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
+  outline: 90px solid transparent !important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
 }
 
 .button--8 {
   position: relative;
   z-index: 1;
   @extend %button;
-  outline: 10px solid #F6F6F6!important; // background-color of parent
+  outline: 10px solid #F6F6F6 !important; // background-color of parent
   background: #F6F6F6;
   border: 2px solid #000;
   color: #000;
@@ -257,7 +257,7 @@ $action-color: $green;
   &:focus {
     color: $dark-blue;
   }
-  
+
   &:hover {
     background: #F6F6F6;
     border-color: $action-color;
@@ -280,7 +280,7 @@ $action-color: $green;
   &:focus {
     color: #FFF;
   }
-  
+
   &:hover {
     @include radial-gradient(circle at 60% 20%, #FF6023 0%, #DA305D);
     color: #FFF;
@@ -304,7 +304,7 @@ $action-color: $green;
 
   .button__bg {
     transform: translateZ(0);
-    outline: 90px solid transparent!important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
+    outline: 90px solid transparent !important; // this makes the area of effect of the filter bigger. This doesn't change anything on Firefox.
     background: $dark-blue;
     position: absolute;
     top: 0;
@@ -316,7 +316,6 @@ $action-color: $green;
     border-radius: 40px;
   }
 }
-
 
 @keyframes hue-rotate {
   from {

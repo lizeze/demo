@@ -1,98 +1,96 @@
- body {
-     background: url('../img/wallhaven-727431.jpg');
-     background-size: cover;
-     background-position: top center;
- }
+body {
+    background: url('../img/wallhaven-727431.jpg');
+    background-size: cover;
+    background-position: top center;
+}
 
- main {
+main {
 
-     /* margin-top: 00px; */
- }
+    /* margin-top: 00px; */
+}
 
- main div {
-     /* height: 40px; */
-     margin: 4px;
-     text-align: center;
- }
+main div {
+    /* height: 40px; */
+    margin: 4px;
+    text-align: center;
+}
 
- main div kbd:hover {
+main div kbd:hover {
 
-     box-shadow: 0px 0px 4px 3px rgba(66, 30, 40, 1);
- }
+    box-shadow: 0px 0px 4px 3px rgba(66, 30, 40, 1);
+}
 
- kbd {
-     padding: 3px;
-     border: 1px solid gray;
-     margin: 10px;
-     width: 50px;
+kbd {
+    padding: 3px;
+    border: 1px solid gray;
+    margin: 10px;
+    width: 50px;
 
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #373737;
+    color: #C5C5C5;
+    box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to bottom, #292929 0%, #111111 100%);
 
-     height: 40px;
-     display: inline-block;
-     position: relative;
-     border-radius: 5px;
-     border: 1px solid #373737;
-     color: #C5C5C5;
-     box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.6);
-     background: linear-gradient(to bottom, #292929 0%, #111111 100%);
+}
 
- }
+main div kbd span {
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    left: 2px;
+    top: -4px;
+}
 
- main div kbd span {
-     font-weight: bold;
-     font-size: 17px;
-     position: absolute;
-     left: 2px;
-     top: -4px;
- }
+main div kbd img {
 
- main div kbd img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 20px;
+    left: 2px;
 
-     width: 16px;
-     height: 16px;
-     position: absolute;
-     top: 20px;
-     left: 2px;
+}
 
- }
+header {
 
- header {
+    margin: 100px auto;
+}
 
-     margin: 100px auto;
- }
+header .searchBox {
 
- header .searchBox {
+    text-align: center;
 
+}
 
-     text-align: center;
+header .searchBox .section {
+    display: inline;
+}
 
- }
+input {
+    display: inline-block;
 
- header .searchBox .section {
-     display: inline;
- }
+    background: #201c29;
+    border: 0;
+    min-width: 400px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #fff;
+    padding: .75rem 2.5rem .75rem 1.5rem;
+    border-radius: 27px;
 
+}
 
- input {
-     display: inline-block;
-
-     background: #201c29;
-     border: 0;
-     min-width: 400px;
-     -webkit-box-flex: 1;
-     -ms-flex: 1;
-     flex: 1;
-     color: #fff;
-     padding: .75rem 2.5rem .75rem 1.5rem;
-     border-radius: 27px;
-
- }
- .section {
+.section {
 
     margin: 0;
-    margin-left: 19px;  
- }
+    margin-left: 19px;
+}
 
- #searchText:focus {
+#searchText:focus {
     outline: -webkit-focus-ring-color auto 0px;
 }

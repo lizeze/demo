@@ -9,23 +9,23 @@
 </head>
 
 <body>
-    <input type="button" value="设置cookie" onclick="setMycookie()" />
-    <input type="button" value="获取cookie" onclick="showMyCookie()" />
+<input type="button" value="设置cookie" onclick="setMycookie()"/>
+<input type="button" value="获取cookie" onclick="showMyCookie()"/>
 </body>
 
 <script>
-   window.onload=function(){
-    setCookie('lzz12', '李泽泽', 10);
+    window.onload = function () {
+        setCookie('lzz12', '李泽泽', 10);
 
-   }
-    var index=1;
+    }
+    var index = 1;
 
     function setMycookie() {
         index++;
         setCookie('lzz', index, 10);
-       
-      
-       alert(index)
+
+
+        alert(index)
 
     }
 

@@ -13,11 +13,13 @@
     -ms-user-select: none;
     user-select: none;
 }
+
 .mask-layer > div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .mask-layer-black {
     width: 100%;
     height: 100%;
@@ -27,6 +29,7 @@
     top: 0;
     left: 0;
 }
+
 .mask-layer-container {
     width: 640px;
     height: 570px;
@@ -110,13 +113,16 @@
     border: solid 1px #8C85E6;
     border-radius: 4px;
 }
+
 .btn-default-styles:focus {
     outline: none;
 }
+
 .btn-default-styles:hover {
     background: #8078e3;
     animation: anniu 1s infinite;
 }
+
 .btn-default-styles:active {
     box-shadow: 0 2px 3px rgba(0, 0, 0, .2) inset;
 }

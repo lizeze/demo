@@ -67,8 +67,8 @@ $("img[modal='zoomImg']").each(function () {
                     var _x = ev.pageX - mouse_x;
                     var _y = ev.pageY - mouse_y;
                     //设置移动后的元素坐标
-                    var now_x = (offset_x + _x ) + "px";
-                    var now_y = (offset_y + _y ) + "px";
+                    var now_x = (offset_x + _x) + "px";
+                    var now_y = (offset_y + _y) + "px";
                     //改变目标元素的位置
                     $div_img.css({
                         top: now_y,
@@ -110,21 +110,21 @@ $("img[modal='zoomImg']").each(function () {
             $(".mask-clockwise").click(function () {
                 spin_n += 15;
                 $(".mask-layer-imgbox img").parent("p").css({
-                    "transform":"rotate("+ spin_n +"deg)",
-                    "-moz-transform":"rotate("+ spin_n +"deg)",
-                    "-ms-transform":"rotate("+ spin_n +"deg)",
-                    "-o-transform":"rotate("+ spin_n +"deg)",
-                    "-webkit-transform":"rotate("+ spin_n +"deg)"
+                    "transform": "rotate(" + spin_n + "deg)",
+                    "-moz-transform": "rotate(" + spin_n + "deg)",
+                    "-ms-transform": "rotate(" + spin_n + "deg)",
+                    "-o-transform": "rotate(" + spin_n + "deg)",
+                    "-webkit-transform": "rotate(" + spin_n + "deg)"
                 });
             });
             $(".mask-counterclockwise").click(function () {
                 spin_n -= 15;
                 $(".mask-layer-imgbox img").parent("p").css({
-                    "transform":"rotate("+ spin_n +"deg)",
-                    "-moz-transform":"rotate("+ spin_n +"deg)",
-                    "-ms-transform":"rotate("+ spin_n +"deg)",
-                    "-o-transform":"rotate("+ spin_n +"deg)",
-                    "-webkit-transform":"rotate("+ spin_n +"deg)"
+                    "transform": "rotate(" + spin_n + "deg)",
+                    "-moz-transform": "rotate(" + spin_n + "deg)",
+                    "-ms-transform": "rotate(" + spin_n + "deg)",
+                    "-o-transform": "rotate(" + spin_n + "deg)",
+                    "-webkit-transform": "rotate(" + spin_n + "deg)"
                 });
             });
             //关闭
@@ -135,6 +135,7 @@ $("img[modal='zoomImg']").each(function () {
                 $(".mask-layer").remove();
             });
         }
+
         showImg();
 
         //下一张

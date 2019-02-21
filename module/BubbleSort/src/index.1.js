@@ -6,7 +6,8 @@ Array.prototype.bubble_sort = function () {
     let i, j, temp;
     for (i = 0; i < this.length - 1; i++) {
         for (j = 0; j < this.length - 1 - i; j++) {
-            if (this[j] >this[j + 1]) {
+            console.log(this, this[j]);
+            if (this[j] < this[j + 1]) {
                 temp = this[j];
                 this[j] = this[j + 1];
                 this[j + 1] = temp;
@@ -46,7 +47,7 @@ function sort() {
                     let next = $div[j + 1];
                     current.classList.add('current')
                     next.classList.add('current')
-                    if (parseFloat(current.getAttribute('value')) > parseFloat(next.getAttribute('value'))) {
+                    if (parseFloat(current.getAttribute('value')) < parseFloat(next.getAttribute('value'))) {
                         let temp = $div[j].getAttribute('value');
                         $(current).attr('value', $(next).attr('value'));
                         $(current).height($(current).attr('value') + '%');
