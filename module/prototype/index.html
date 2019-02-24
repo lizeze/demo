@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <dl>
+        <dt>数据类型</dt>
+        <dd>
+            <ul>
+                <li>数值</li>
+                <li>字符串</li>
+                <li>布尔值</li>
+                <li>undefined</li>
+                <li>null</li>
+                <li>对象</li>
+                <li>Symbol</li>
+            </ul>
+        </dd>
+    </dl>
+    <dl>
+        <dt>null和undefined的区别是什么</dt>
+        <dd>null表示对象的值为空，undefined表示未定义</dd>
+        <dd>数组的forEach方法会跳过空元素，但是不会跳过undefined</dd>
+    </dl>
+    <dl>
+        <dt>原型链</dt>
+        <dd>公共的属性和方法放在protype里面，所有实例化的对象的__protype__自动指向到protype，原型链的最顶端是Object</dd>
+    </dl>
+    <dl><dt>函数里的this什么含义，什么情况下使用</dt>
+        <dd>
+            <ol>
+                <li>this就是属性或方法当前所在的对象</li>
+                <li>全局环境</li>
+                <li>构造函数</li>
+                <li>对象的方法</li>
+            </ol>
+        </dd>
+    </dl>
+    <dl><dt>es5严格模式的作用</dt>
+        <dd>
+            <ul>
+                <li>消除Javascript语法的一些不合理、不严谨之处，减少一些怪异行为</li>
+                <li>消除代码运行的一些不安全之处，保证代码运行的安全</li>
+                <li>提高编译器效率，增加运行速度</li>
+                <li>为未来新版本Javascript做好铺垫</li>
+            </ul>
+        </dd>
+    </dl>
+    <dl><dt>箭头函数和ES5函数的区别</dt>
+        <dd>
+            <ul>
+                <li>箭头函数this指向不能变</li>
+                <li>不可以使用arguments函数</li>
+                <li>不可以当作构造函数</li>
+            </ul>
+
+        </dd>
+    </dl>
+    <dl><dt>js怎么创建一个类</dt>
+        <dd>
+            <ul>
+                <li>构造函数</li>
+
+                <li>Object.create</li>
+
+                <li>直接使用{}</li>
+            </ul>
+        </dd>
+    </dl>
+    <dl><dt>Http如何工作的</dt>
+        <dd>
+            <ul>
+                <li>域名解析</li>
+                <li>tcp的三次握手</li>
+                <li>服务器端响应</li>
+            </ul>
+        </dd>
+    </dl>
+    <dl><dt>输入URL到页面加载发生了什么</dt>
+        <dd>
+            <ul>
+                <li>DNS解析</li>
+                <li>tcp连接</li>
+                <li>发送http请求</li>
+                <li>服务器响应</li>
+                <li>浏览器渲染</li>
+                <li>链接结束</li>
+            </ul>
+        </dd>
+    </dl>
+    <dl><dt>cookie和session 的区别</dt>
+        <dd>
+            <ol>
+                <li>session保存在服务器上，网站的任何一个地方都可以访问到</li>
+                <li>cookie存储在浏览器，可以设置访问路径</li>
+                <li>cookie设置过期时间会保存在硬盘上，没有设置浏览器关闭后就小时</li>
+                <li>服务器端调用删除方法时session会小时</li>
+                <li>距离上一次收到客户端发送的session id时间超过了session最大有效时间session会删除</li>
+                <li>浏览器进程停止</li>
+            </ol>
+
+        </dd>
+    </dl>
+    <dl><dt>Cookie,localStorage,sessionStorage</dt>
+        <dd>
+            <h3>cookie</h3>
+            <ul>
+                <li>保存在浏览器，可设置时间关闭</li>
+                <li>大小4KB</li>
+                <li>每次都会在http头中</li>
+                <li>易用性不好，接口不完善</li>
+            </ul>
+            <h3>Storage</h3>
+            <ul>
+                <li>local除非被清除，否则永远保存sessiono关闭页面或浏览器被清空</li>
+                <li>大小5MB</li>
+                <li>仅仅在浏览器保存，不参与服务器的通信</li>
+                <li>接口完善</li>
+            </ul>
+        </dd>
+    </dl>
+</body>
+<script src="./index.js"></script>
+
+</html>
